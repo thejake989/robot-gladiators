@@ -174,7 +174,7 @@ var startGame = function () {
   endGame();
 };
 
-// function to end the entire game
+// function to end the game
 var endGame = function () {
   window.alert("The game has now ended. Let's see how you did!");
 
@@ -201,7 +201,7 @@ var endGame = function () {
     );
   }
 
-  // ask player if they'd like to play again
+  // Ask the player if they want to try again.
   var playAgainConfirm = window.confirm("Would you like to play again?");
 
   if (playAgainConfirm) {
